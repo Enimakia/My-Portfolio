@@ -2,7 +2,7 @@
 my personal portfolio web app
 # Portfolio Website
 
-This repository contains the code for a portfolio website built using Sanity.io as the backend and React.js as the frontend. The website serves as a showcase for projects, skills, and experiences.
+This repository contains the code for a portfolio website built using Sanity.io as the backend and React.js as the frontendy,html,scss and javascript. The website serves as a showcase for projects, skills, and experiences.
 
 ## Getting Started
 
@@ -21,27 +21,12 @@ Ensure that you have the following prerequisites installed:
 ```
 cd portfolio-website
 Install the dependencies:
-Copy
 npm install
 Sanity.io Backend Setup
-To set up the Sanity.io backend, follow these steps:
+To set up the Sanity.io backend go to -->> https://www.sanity.io/docs and learn more
 
 Create a new project on Sanity.io and obtain your project API token.
 
-Rename the .env.example file to .env.
-
-Open the .env file and update the SANITY_TOKEN value with your project API token.
-
-Importing Data
-To import the Sanity.io schema and sample data, follow these steps:
-
-Run the following command to import the schema:
-
-
-sanity dataset import ./data/schema.tar.gz
-Run the following command to import the sample data:
-
-sanity dataset import ./data/sample-data.tar.gz
 Running the Project
 To start the development server and run the project locally, use the following command:
 
